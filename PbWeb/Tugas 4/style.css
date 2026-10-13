@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#header img {
+    float: left;
+    margin-right: 15px;
+}
+
+#header h2 {
+    margin: 8px 0;
+}
+
+#header {
+    overflow: hidden;
+}
+
+td {
+    padding: 4px 10px 4px 0;
+}
+
+.error {
+    color: red;
+    margin: 6px 0;
+}
+
+#hasil {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    display: none;
+}
+
+#checkboxPilihan label,
+#radioPilihan label {
+    display: block;
+    margin: 5px 0;
+}
+
+#dropdownPilihan {
+    padding: 5px;
+    margin-bottom: 10px;
+}

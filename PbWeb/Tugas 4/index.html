@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tugas 4 - JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="header">
+        <img src="fotosendiri.jpeg" width="100" alt="Foto">
+        <h2>Nama : Stanislaus Baskara Dharma Putra</h2>
+        <h2>NIM : 255314156</h2>
+    </div>
+
+    <hr>
+
+    <table>
+        <tr>
+            <td>Nama :</td>
+            <td><input type="text" id="nama"></td>
+        </tr>
+        <tr>
+            <td>Jumlah Pilihan :</td>
+            <td>
+                <input type="number" id="jml" min="1" max="10">
+            </td>
+        </tr>
+    </table>
+
+    <p id="err1" class="error"></p>
+    <button id="ok1" onclick="okJumlah()">OK</button>
+
+    <div id="bagian2" style="display:none">
+        <br>
+        <table id="tabelPilihan"></table>
+        <p id="err2" class="error"></p>
+        <button id="ok2" onclick="okTeksPilihan()">OK</button>
+    </div>
+
+    <div id="bagian3" style="display:none">
+        <br>
+
+        <p>Pilihan Checkbox :</p>
+        <div id="checkboxPilihan"></div>
+
+        <p>Pilihan Dropdown :</p>
+        <select id="dropdownPilihan">
+            <option value="">-- Pilih salah satu --</option>
+        </select>
+
+        <p>Pilihan Radio Button :</p>
+        <div id="radioPilihan"></div>
+
+        <p id="err3" class="error"></p>
+        <button id="ok3" onclick="okPilihan()">OK</button>
+    </div>
+
+    <div id="bagian4" style="display:none">
+        <br>
+        <table>
+            <tr>
+                <td>Email :</td>
+                <td><input type="text" id="email"></td>
+            </tr>
+        </table>
+
+        <p id="err4" class="error"></p>
+        <button id="ok4" onclick="okEmail()">OK</button>
+    </div>
+
+    <p id="hasil"></p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
